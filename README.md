@@ -1,6 +1,8 @@
 # Validator
 ## Usage
 
+dependent on [Flash](https://github.com/sashagar86/Flash)
+
 ```Validator::is_not_looged_in()``` check user on not login. Return true/false
 
 ```Validator::is_admin()``` check user having admin role. Return true/false
