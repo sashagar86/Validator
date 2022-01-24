@@ -46,4 +46,8 @@ class Validator
 
         return $error;
     }
+
+    public static function is_author($logged_user, $user){
+        return $logged_user['id'] == $user['id'];
+    }
 }

@@ -11,4 +11,6 @@ dependent on [Flash](https://github.com/sashagar86/Flash)
 
 ```Validator::requiredFields($requiredFields)```. Check required fields on empty value. Return true/false and set message if field is empty. $requiredFields is array of required fields
 
+```Validator::is_author($logged_user, $user)```. Check owner data. Return true/false.
+
 
